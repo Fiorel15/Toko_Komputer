@@ -1,0 +1,38 @@
+.body{
+    font-family: Lucida Sans, Monospace;
+}
+
+.body:before{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("smktelkommalang.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+/* ===================================== LOGIN FORM ===================================== */
+.login-wrap{
+    width: 100%;
+	margin: auto;
+	max-width: 440px;
+	min-height: 340px;
+	position: relative;
+	box-shadow:0 12px 20px 0 rgba(0,0,0,.24),0 30px 50px 0 rgba(0,0,0,.19);
+}
+
+.login-html{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding: 50px 70px 100px 70px;
+	background:rgba(40, 101, 73, 0.9);
+}
